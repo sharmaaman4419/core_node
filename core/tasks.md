@@ -1,10 +1,13 @@
 1. Explain Node and V8 in your own words ? 
 // Answer here...
+Node is a Run Time Enviroment In The Browser In Which Node Can Proceeds  Codes Which Are not Understand By The Browser...
 
 2. Explain steps in REPL(here) and command to start REPL ?
 // Answer here...
-
+REPL Stands For The Repeat Eval Print Loop It Acts As Console.
 3. Run `index.js` in the same directory as script writer using `node FILE_NAME.js` and output result of console here.
+
+hello World
 
 4. Require fs module and read `theory.md` using fs.readFile method in index.js file.
 
@@ -12,6 +15,10 @@
 
 6. What is blocking code ? How is it different from non-blocking/async codes ? Correct blocking code in index.js to run asynchronously ?
 // Answer here ...
+
+ 1.Blocking code means that blocking the callstack
+
+2.Non blocking code means that runnig the code asynchronorus way so that that the callstck does not blocked
 
 7. Request from browser `https://altcampus.io` and copy request, response and general headers into answer.js.
 

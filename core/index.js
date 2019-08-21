@@ -23,8 +23,6 @@ fs.read("./theory.md",(error,file) => {
 
 // 10. require math.js
   // console const pie and add and multiply function.
-  var file = require("./math.js");
-  file.add(3,4);
-  file.sub(3,4);
-  file.console.log(pi);
-
+  var file = require("./math")
+  file.pie;
+  file.add(2,3);

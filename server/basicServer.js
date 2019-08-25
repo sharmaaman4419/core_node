@@ -3,13 +3,18 @@ var http = require('http');
 // 1. Write script to create a basic http server using createServer method, write 'Welcome to NodeJS' as response and
 // listen for request on port 5555.
 http.createServer((req,res) => {
-  res.write("welcome to node js")
-}).listen(4000)
+  res.end("welcome to node js")
+}).listen(5555,() => {
+  console.log("server is runnig at port 4times5")
+})
 // 2. Write script to create a server, send in response the request headers 
-// and add listener on port 6666.
 http.createServer((req,res) => {
   res.end(req.headers)
-}).listen(6666)
+}).listen(6666,() => {
+  console.log("server is running at port 4times6")
+})
+// and add listener on port 6666.
+
 // 3. create a server and console request methods and url by doing request 
 // from postman or web browsers.
 
